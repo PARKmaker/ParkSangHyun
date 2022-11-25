@@ -1,5 +1,5 @@
 {
-  "extends": "airbnb",
+  "extends": ["airbnb", "prettier"],
   "parser": "babel-eslint",
   "env": {
     "browser": true,
@@ -32,6 +32,10 @@
       "assignment": true,
       "return": true
     }],
+    "linebreak-style": 0,
+    "quotes": ["off", "single"],
+    // "indent": [2, "tab"],
+    // "no-tabs": 0
   },
   "plugins": [
     "react"

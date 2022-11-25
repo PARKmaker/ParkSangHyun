@@ -1,45 +1,53 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
-import ContactIcons from '../Contact/ContactIcons';
+import ContactIcons from "../Contact/ContactIcons";
 
 const { PUBLIC_URL } = process.env; // set automatically from package.json:homepage
 
 const SideBar = () => (
-  <section id="sidebar">
-    <section id="intro">
-      <Link to="/" className="logo">
-        <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
-      </Link>
-      <header>
-        <h2>Michael D&apos;Angelo</h2>
-        <p><a href="mailto:michael.l.dangelo@gmail.com">michael.l.dangelo@gmail.com</a></p>
-      </header>
-    </section>
+	<section id="sidebar">
+		<section id="intro">
+			<Link to="/" className="logo">
+				<img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
+			</Link>
+			<header>
+				<h2>Park SangHyun</h2>
+				<p>
+					<a href="mailto:tkdgus8903@gmail.com">tkdgus8903@gmail.com</a>
+				</p>
+			</header>
+		</section>
 
-    <section className="blurb">
-      <h2>About</h2>
-      <p>Hi, I&apos;m Michael. I like building things.
-        I am a <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC Alumni, and
-        the co-founder and CTO of <a href="https://arthena.com">Arthena</a>. Before Arthena I was
-        at <a href="https://matroid.com">Matroid</a>
-        , <a href="https://planet.com">Planet</a>
-        , <a href="https://planetaryresources.com">Planetary Resources</a>
-        , <a href="https://facebook.com">Facebook</a>
-        , and <a href="https://seds.org">SEDS</a>.
-      </p>
-      <ul className="actions">
-        <li>
-          {!window.location.pathname.includes('/resume') ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/about" className="button">About Me</Link>}
-        </li>
-      </ul>
-    </section>
+		<section className="blurb">
+			<h2>About</h2>
+			<p>
+				안녕하세요 마라토너 개발자 박상현입니다.{" "}
+				<a href="https://www.hanbat.ac.kr/">국립 한밭대학교</a> 학부 졸업, 동료가 믿고 의지할수 있는
+				프론트엔드 개발자가 되기 위해 노력중 입니다.
+			</p>
+			<ul className="actions">
+				<li>
+					{!window.location.pathname.includes("/resume") ? (
+						<Link to="/resume" className="button">
+							Learn More
+						</Link>
+					) : (
+						<Link to="/about" className="button">
+							About Me
+						</Link>
+					)}
+				</li>
+			</ul>
+		</section>
 
-    <section id="footer">
-      <ContactIcons />
-      <p className="copyright">&copy; Michael D&apos;Angelo <Link to="/">mldangelo.com</Link>.</p>
-    </section>
-  </section>
+		<section id="footer">
+			<ContactIcons />
+			<p className="copyright">
+				&copy; 박상현 <Link to="/">parkmaker.github.io/ParkSangHyun/</Link>.
+			</p>
+		</section>
+	</section>
 );
 
 export default SideBar;
