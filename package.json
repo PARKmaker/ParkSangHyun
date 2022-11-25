@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/PARKmaker/ParkSangHyun"
+    "url": "https://github.com/PARKmaker/ParkSangHyun.git"
   },
   "engines": {
     "node": ">=14.x"
