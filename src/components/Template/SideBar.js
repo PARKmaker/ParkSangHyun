@@ -38,13 +38,19 @@ const SideBar = () => (
 						</Link>
 					)}
 				</li>
+				{/* <Link to="/data/ParkSangHyun" className="button">
+					Resume Download
+				</Link> */}
+				<div className="button">
+					<a href={`${PUBLIC_URL}/박상현이력서.pdf`}>Resume</a>
+				</div>
 			</ul>
 		</section>
 
 		<section id="footer">
 			<ContactIcons />
 			<p className="copyright">
-				&copy; 박상현 <Link to="/">parkmaker.github.io/ParkSangHyun/</Link>.
+				&copy; 박상현 <Link to="/">parkmaker.github.io/</Link>.
 			</p>
 		</section>
 	</section>
