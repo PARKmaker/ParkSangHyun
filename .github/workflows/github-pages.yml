@@ -28,5 +28,5 @@ jobs:
         run: |
           git config user.name "PARKmaker"
           git config user.email "tkdgus8903@gmail.com"
-          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/mldangelo/personal-site.git
+          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/PARKmaker.github.io.git
           npm run deploy

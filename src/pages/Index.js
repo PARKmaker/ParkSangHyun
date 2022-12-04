@@ -27,7 +27,7 @@ const Index = () => (
 			<p>
 				{" "}
 				환영합니다. <Link to="/about">ABOUT</Link> 에서 저에 대한 더 많은 정보를 볼 수 있습니다.
-				<br /> 또는 <a href={`${PUBLIC_URL}/박상현이력서.pdf`}>RESUME</a> 를 통해 제 이력서를 확인
+				<br /> 또는 <a href={`${PUBLIC_URL}/park.html`}>RESUME</a> 를 통해 제 이력서를 확인
 				할 수 있습니다. <br />
 				<Link to="/projects">PROJECTS, </Link> <Link to="/stats">SITE STATISTICS</Link>
 				<br />

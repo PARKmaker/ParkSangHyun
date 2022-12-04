@@ -28,7 +28,7 @@ const Navigation = () => (
 						</li>
 					))}
 				<li>
-					<a href={`${PUBLIC_URL}/박상현이력서.pdf`}>RESUME</a>
+					<a href={`${PUBLIC_URL}/park.html`}>RESUME</a>
 				</li>
 			</ul>
 		</nav>

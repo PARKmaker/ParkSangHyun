@@ -42,7 +42,7 @@ const SideBar = () => (
 					Resume Download
 				</Link> */}
 				<div className="button">
-					<a href={`${PUBLIC_URL}/박상현이력서.pdf`}>Resume</a>
+					<a href={`${PUBLIC_URL}/park.html`}>Resume</a>
 				</div>
 			</ul>
 		</section>
