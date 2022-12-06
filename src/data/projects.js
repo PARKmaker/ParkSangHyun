@@ -2,8 +2,9 @@
 const data = [
 	{
 		title: "쇼핑몰 Hotdeal view",
-		subtitle: "A convolutional neural network to classify cats! (and dogs)",
-		image: "/images/projects/hackernews.PNG",
+		subtitle: "쇼핑몰의 Hotdeal을 빠르게 파악할 수 있는 웹 페이지",
+		image: "/images/projects/hotdeal.PNG",
+		link: "https://github.com/PARKmaker/Hotdeal",
 		date: "2022-10",
 		desc:
 			"다양한 쇼핑몰마다 있는 Hotdeal 아이템을 하나의 사이트에서 볼 수 있는 웹." +
@@ -12,8 +13,8 @@ const data = [
 	{
 		title: "AI 챗봇을 활용한 온라인 강의 웹 사이트",
 		subtitle: "캡스톤 디자인",
-		image: "/images/projects/HBNU-chatbot.png",
-		link: "https://github.com/PARKmaker/hbnu-chatbot-client",
+		image: "/images/projects/HBNU-chatbot.PNG",
+		link: "https://github.com/HBNU-SWUNIV/COME-CAPSTONE22-chatbotcapstone",
 		date: "2022-07",
 		desc:
 			"캡스톤 디자인 프로젝트 입니다. " +
@@ -31,7 +32,7 @@ const data = [
 	},
 	{
 		title: "Hacker News API 를 활용한 게시판",
-		subtitle: "A kickstarter funded potato powered weather balloon.",
+		subtitle: "Hacker News AP와 TypeScript를 이용한 웹 어플리 케이션",
 		link: "https://github.com/PARKmaker/HackerNews",
 		image: "/images/projects/hackernews.PNG",
 		date: "2022-08",
