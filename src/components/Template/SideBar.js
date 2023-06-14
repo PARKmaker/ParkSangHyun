@@ -28,7 +28,7 @@ const SideBar = () => (
       </p>
       <ul className="actions">
         <li>
-          {!window.location.pathname.includes("/resume") ? (
+          {!window.location.pathname.includes("/about") ? (
             // <Link to="/resume" className="button">
             // 	Learn More
             // </Link>
@@ -36,17 +36,17 @@ const SideBar = () => (
               About Me
             </Link>
           ) : (
-            <Link to="/about" className="button">
-              About Me
+            <Link to="/" className="button">
+              Home
             </Link>
           )}
         </li>
         {/* <Link to="/data/ParkSangHyun" className="button">
 					Resume Download
 				</Link> */}
-        <div className="button">
+        {/* <div className="button">
           <a href={`${PUBLIC_URL}/park.pdf`}>Resume</a>
-        </div>
+        </div> */}
       </ul>
     </section>
 
