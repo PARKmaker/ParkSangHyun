@@ -3,7 +3,7 @@ const data = [
   {
     title: "React와 API를 활용한 Todo List",
     subtitle: "개인 프로젝트",
-    image: "/images/projects/todo.PNG",
+    image: "/images/projects/todo.png",
     link: "https://github.com/PARKmaker/wanted-pre-onboarding-frontend",
     date: "2023-09",
     desc: "react-router-dom, useCallback, useMemo, Custom Hook을 사용하고 AWS S3 + CloudFront 배포 학습을 위한 프로젝트",
@@ -30,7 +30,7 @@ const data = [
   {
     title: "쇼핑몰 Hotdeal view",
     subtitle: "쇼핑몰의 Hotdeal을 빠르게 파악할 수 있는 웹 페이지",
-    image: "/images/projects/hotdeal.PNG",
+    image: "/images/projects/hotdeal.png",
     link: "https://github.com/PARKmaker/Hotdeal",
     date: "2022-10",
     desc:
